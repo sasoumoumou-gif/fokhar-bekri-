@@ -12,6 +12,9 @@
   <a href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1">
     <img src="https://img.shields.io/badge/Figma-Interactive%20Prototype-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Prototype" />
   </a>
+  <a href="presentation.pdf">
+    <img src="https://img.shields.io/badge/Presentation-PDF%20Slide%20Deck-E67E22?style=for-the-badge&logo=googleslides&logoColor=white" alt="Presentation PDF" />
+  </a>
   <a href="Brand%20book%20fokhar%20bekri.pdf">
     <img src="https://img.shields.io/badge/Brand%20Book-PDF%20Guide-D32F2F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Brand Book PDF" />
   </a>
@@ -107,6 +110,11 @@ The emblem of **Fokhar Bekri** captures the essence of Tunisian ceramic history:
 The comprehensive design manual and visual identity guidelines for **Fokhar Bekri** are available directly in this repository:
 - 📄 **[Download / View Brand Book (PDF)](Brand%20book%20fokhar%20bekri.pdf)** (or mirrored at [`docs/Brand_book_fokhar_bekri.pdf`](docs/Brand_book_fokhar_bekri.pdf))
 - **Contents**: Full brand guidelines, logo clear space, color systems, typography pairing, iconography, and application mockups.
+
+### 📊 Project Presentation & Slide Deck
+The complete defense and pitch deck covering the field research, cultural values, UI/UX architecture, and implementation:
+- 📄 **[Download / View Presentation (PDF)](presentation.pdf)** (or mirrored at [`docs/presentation.pdf`](docs/presentation.pdf))
+- **Contents**: Historical context of Nabeul pottery, artisan interviews (*Maâlems*), multi-tool pipeline (Figma + Adalo + Manus), and future preservation roadmap.
 
 ---
 
