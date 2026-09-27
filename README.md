@@ -12,6 +12,9 @@
   <a href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1">
     <img src="https://img.shields.io/badge/Figma-Interactive%20Prototype-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Prototype" />
   </a>
+  <a href="Brand%20book%20fokhar%20bekri.pdf">
+    <img src="https://img.shields.io/badge/Brand%20Book-PDF%20Guide-D32F2F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Brand Book PDF" />
+  </a>
   <img src="https://img.shields.io/badge/Adalo-Functional%20App-00D1B2?style=for-the-badge&logo=adalo&logoColor=white" alt="Adalo MVP" />
   <img src="https://img.shields.io/badge/Manus-Showcase%20Portal-6C5CE7?style=for-the-badge" alt="Manus Web" />
   <img src="https://img.shields.io/badge/Cultural%20Heritage-Nabeul%20%2C%20Tunisia-E76F51?style=for-the-badge" alt="Nabeul Tunisia" />
@@ -99,6 +102,11 @@ The emblem of **Fokhar Bekri** captures the essence of Tunisian ceramic history:
    - **The Cobalt Glazed Vase**: Celebrates the vibrant enamel colors introduced through Andalusian craftsmanship in Nabeul.
 2. **Authentic Arabic Calligraphy**:
    - Lettered with classical fluid lines and contemporary geometric balance, proudly pronouncing **فخار بكري** (*Fokhar Bekri* — "Pottery of Ancestral Times").
+
+### 📖 Brand Book & Design Guidelines
+The comprehensive design manual and visual identity guidelines for **Fokhar Bekri** are available directly in this repository:
+- 📄 **[Download / View Brand Book (PDF)](Brand%20book%20fokhar%20bekri.pdf)** (or mirrored at [`docs/Brand_book_fokhar_bekri.pdf`](docs/Brand_book_fokhar_bekri.pdf))
+- **Contents**: Full brand guidelines, logo clear space, color systems, typography pairing, iconography, and application mockups.
 
 ---
 
