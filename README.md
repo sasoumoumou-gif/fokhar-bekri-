@@ -18,8 +18,10 @@
   <a href="Brand%20book%20fokhar%20bekri.pdf">
     <img src="https://img.shields.io/badge/Brand%20Book-PDF%20Guide-D32F2F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Brand Book PDF" />
   </a>
+  <a href="https://nabeulpotter-hmuw4yez.manus.space/">
+    <img src="https://img.shields.io/badge/Live%20Website-Terre%20de%20Nabeul-6C5CE7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Terre de Nabeul Live Website" />
+  </a>
   <img src="https://img.shields.io/badge/Adalo-Functional%20App-00D1B2?style=for-the-badge&logo=adalo&logoColor=white" alt="Adalo MVP" />
-  <img src="https://img.shields.io/badge/Manus-Showcase%20Portal-6C5CE7?style=for-the-badge" alt="Manus Web" />
   <img src="https://img.shields.io/badge/Cultural%20Heritage-Nabeul%20%2C%20Tunisia-E76F51?style=for-the-badge" alt="Nabeul Tunisia" />
   <img src="https://img.shields.io/badge/GitHub%20Pages-Live%20Showcase-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
 </p>
@@ -85,9 +87,14 @@ flowchart LR
 
 ---
 
-### 3. 🌐 Manus — Showcase & Cultural Experience Website
-- Built a dedicated web presence detailing the Fokhar Bekri story, cultural mission, and visual brand identity.
-- Communicates the educational and heritage value to educators, cultural institutions, tourists, and design communities.
+### 3. 🌐 Terre de Nabeul — Official Live Web Portal (Manus)
+- 🔗 **Live Website**: **[https://nabeulpotter-hmuw4yez.manus.space/](https://nabeulpotter-hmuw4yez.manus.space/)**
+- **Living Heritage & Virtual Atelier**: A dedicated web experience powered by Manus, built to make the ancestral pottery craft of Nabeul accessible, educational, and inspiring.
+- **Key Features of the Live Platform**:
+  - 🏺 **Virtual Atelier**: Interactive digital studio where users explore traditional turning (*Tournage*), clay modeling, and mineral glazing techniques.
+  - 👨‍🎨 **Meet Local Artisans**: Profiles, philosophies, and studio locations of master potters (*Maâlems*) across Nabeul.
+  - 📸 **Community Ceramic Showcase**: An interactive digital gallery where users and workshop participants share their pottery creations.
+  - 🏛️ **Cultural Storytelling**: Communicates the heritage, cultural value, and future preservation of Nabeul ceramics to an international audience.
 
 ---
 
@@ -153,12 +160,13 @@ graph TD
 
 ---
 
-## 🤝 Authors & Credits
+## 🤝 Project Links & Credits
 
-- **Concept, UI/UX Design & Prototyping**: Sasou Moumou (`sasoumoumou-gif`)
-- **Cultural Inspiration**: The pottery masters (*Maâlems*) and heritage workshops of Nabeul, Tunisia.
-- **Repository**: [https://github.com/sasoumoumou-gif/fokhar-bekri-](https://github.com/sasoumoumou-gif/fokhar-bekri-)
-- **Live Showcase**: [https://sasoumoumou-gif.github.io/fokhar-bekri-/](https://sasoumoumou-gif.github.io/fokhar-bekri-/)
+- 🌐 **Official Live Web Portal**: **[https://nabeulpotter-hmuw4yez.manus.space/](https://nabeulpotter-hmuw4yez.manus.space/)**
+- 🎨 **Interactive Mobile Prototype**: [Launch Figma Prototype](https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1)
+- 🏺 **Cultural Inspiration**: The pottery masters (*Maâlems*) and heritage workshops of Nabeul, Tunisia.
+- 📦 **GitHub Repository**: [https://github.com/sasoumoumou-gif/fokhar-bekri-](https://github.com/sasoumoumou-gif/fokhar-bekri-)
+- 🚀 **GitHub Pages Showcase**: [https://sasoumoumou-gif.github.io/fokhar-bekri-/](https://sasoumoumou-gif.github.io/fokhar-bekri-/)
 
 ---
 
