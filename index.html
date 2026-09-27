@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fokhar Bekri • فخار بكري | Preserving Nabeul's Pottery Heritage</title>
+  
+  <!-- Meta tags -->
+  <meta name="description" content="Fokhar Bekri connects cultural heritage with digital innovation to discover, learn, and preserve the traditional pottery of Nabeul, Tunisia.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            nabeul: {
+              DEFAULT: '#0A261A',
+              card: '#0E3524',
+              accent: '#19543A',
+              light: '#2D7554',
+            },
+            terracotta: {
+              DEFAULT: '#B35434',
+              light: '#D97352',
+            },
+            ochre: {
+              DEFAULT: '#DCA257',
+              light: '#F4CA88',
+            },
+            cobalt: '#1A5B8C',
+            sand: '#FAF7EE',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            arabic: ['"Amiri"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#05170F] text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-black">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-gradient-to-r from-emerald-950 via-amber-900/60 to-emerald-950 text-amber-200 text-xs py-2 px-4 text-center border-b border-emerald-800/40 flex items-center justify-center space-x-2">
+    <span>🏺 Cultural Heritage & Digital Innovation Initiative</span>
+    <span class="opacity-50">•</span>
+    <span>Nabeul, Tunisia 🇹🇳</span>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#0A261A]/85 border-b border-emerald-800/40">
+    <div class="max-w-6xl mx-auto px-5 py-3.5 flex items-center justify-between">
+      <a href="#" class="flex items-center space-x-3 group">
+        <img src="assets/logo.png" alt="Fokhar Bekri" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" />
+        <div>
+          <span class="text-base font-bold text-white tracking-wide block font-serif">Fokhar Bekri</span>
+          <span class="text-[10px] text-amber-400 font-arabic -mt-1 block font-bold">فخار بكري</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center space-x-7 text-xs font-semibold tracking-wider text-emerald-200 uppercase">
+        <a href="#about" class="hover:text-amber-400 transition-colors">Concept</a>
+        <a href="#prototype" class="hover:text-amber-400 transition-colors">Figma Prototype</a>
+        <a href="#ecosystem" class="hover:text-amber-400 transition-colors">Digital Stack</a>
+        <a href="#craftsmanship" class="hover:text-amber-400 transition-colors">Techniques</a>
+        <a href="#values" class="hover:text-amber-400 transition-colors">Cultural Value</a>
+      </nav>
+
+      <div class="flex items-center space-x-3">
+        <a
+          href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs flex items-center space-x-1.5 shadow-lg shadow-amber-500/20 active:scale-95 transition-all"
+        >
+          <i data-lucide="play" class="w-3.5 h-3.5 fill-current"></i>
+          <span>Live Prototype</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden pt-16 pb-24 px-5">
+    <!-- Background Glows -->
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[450px] bg-emerald-600/10 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="absolute top-1/2 -right-32 w-[400px] h-[400px] bg-amber-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <!-- Badge -->
+      <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 text-xs font-semibold mb-6 shadow-sm">
+        <span class="text-amber-400">✨</span>
+        <span>Honoring the Ceramic Capital of Tunisia</span>
+      </div>
+
+      <!-- Main Heading with Arabic Calligraphy -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-bold font-serif leading-[1.15] tracking-tight mb-4 text-white">
+        Fokhar Bekri <span class="text-amber-400 font-arabic font-normal block sm:inline sm:ml-2">فخار بكري</span>
+      </h1>
+
+      <p class="text-lg sm:text-2xl text-amber-200/90 font-serif italic max-w-2xl mx-auto mb-6">
+        Discovering, Learning & Preserving the Traditional Pottery Heritage of Nabeul
+      </p>
+
+      <p class="text-sm sm:text-base text-emerald-100/75 max-w-2xl mx-auto leading-relaxed mb-9">
+        An interactive cultural initiative bridging ancestral craftsmanship with digital design. Connecting youth, artisans, and enthusiasts through Figma mobile UI/UX prototyping, Adalo functional development, and Manus web storytelling.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-6 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-sm flex items-center space-x-2 shadow-xl shadow-amber-500/25 active:scale-95 transition-all"
+        >
+          <i data-lucide="smartphone" class="w-4 h-4"></i>
+          <span>Launch Figma Prototype</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+
+        <a
+          href="https://github.com/sasoumoumou-gif/fokhar-bekri-"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-6 py-3.5 rounded-2xl bg-[#0E3524] hover:bg-[#144932] text-emerald-200 border border-emerald-700/60 font-semibold text-sm flex items-center space-x-2 transition-all"
+        >
+          <i data-lucide="github" class="w-4 h-4"></i>
+          <span>GitHub Repository</span>
+        </a>
+      </div>
+
+      <!-- Hero Visual Showcase / Logo & App Mockup -->
+      <div class="mt-16 max-w-4xl mx-auto rounded-3xl p-6 sm:p-10 bg-gradient-to-b from-[#0E3524] to-[#0A261A] border border-emerald-700/50 shadow-2xl relative">
+        <div class="flex flex-col md:flex-row items-center justify-around gap-8">
+          <!-- Logo presentation -->
+          <div class="flex flex-col items-center text-center max-w-xs">
+            <div class="p-6 rounded-3xl bg-[#FAF7EE] shadow-xl border-4 border-amber-500/20 mb-4 transform hover:scale-105 transition-transform duration-300">
+              <img src="assets/logo.png" alt="Fokhar Bekri Logo" class="h-44 w-auto object-contain" />
+            </div>
+            <span class="text-xs font-semibold text-amber-300 uppercase tracking-widest">Official Visual Identity</span>
+            <span class="text-[11px] text-emerald-300/70 mt-1 font-arabic text-sm">رمز الأصالة والخزف النابلي التونسي</span>
+          </div>
+
+          <!-- Feature Highlights -->
+          <div class="text-left space-y-4 max-w-md">
+            <div class="p-4 rounded-2xl bg-[#071D13] border border-emerald-800/80 flex items-start space-x-3.5">
+              <div class="p-2 rounded-xl bg-amber-500/10 text-amber-400 flex-shrink-0">
+                <i data-lucide="palette" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Full UI/UX in Figma</h4>
+                <p class="text-xs text-emerald-200/70 leading-relaxed mt-0.5">
+                  Over 40 high-fidelity screens detailing onboarding, artisan portfolios, workshop bookings, and ceramic shape viewers.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-[#071D13] border border-emerald-800/80 flex items-start space-x-3.5">
+              <div class="p-2 rounded-xl bg-emerald-500/10 text-emerald-400 flex-shrink-0">
+                <i data-lucide="layers" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Functional MVP in Adalo</h4>
+                <p class="text-xs text-emerald-200/70 leading-relaxed mt-0.5">
+                  Interactive mobile build testing user flows, database models, and artisan booking simulations.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-[#071D13] border border-emerald-800/80 flex items-start space-x-3.5">
+              <div class="p-2 rounded-xl bg-blue-500/10 text-blue-400 flex-shrink-0">
+                <i data-lucide="globe" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Showcase Web Portal in Manus</h4>
+                <p class="text-xs text-emerald-200/70 leading-relaxed mt-0.5">
+                  Engaging online platform narrating Nabeul's heritage, cultural values, and educational workshops.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Concept & Cultural Mission -->
+  <section id="about" class="py-20 px-5 border-t border-emerald-900/60 bg-[#071A12]">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Heritage & Vision</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-serif text-white mt-1">
+          Why Fokhar Bekri?
+        </h2>
+        <p class="text-emerald-200/75 text-sm mt-3 leading-relaxed">
+          Nabeul has been the beating heart of Mediterranean pottery for millenia. However, modernization poses a challenge to preserving this oral and manual heritage.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="p-7 rounded-3xl bg-[#0E3524] border border-emerald-800/70 hover:border-amber-400/60 transition-all group">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <i data-lucide="book-open" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-serif text-white mb-2">Preserving Living Craft</h3>
+          <p class="text-xs text-emerald-200/80 leading-relaxed">
+            Capturing the wisdom of master potters (*Maâlems*), documented clay formulations, natural glazing recipes, and ancient hand-throwing techniques.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-7 rounded-3xl bg-[#0E3524] border border-emerald-800/70 hover:border-amber-400/60 transition-all group">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-serif text-white mb-2">Inspiring Youth</h3>
+          <p class="text-xs text-emerald-200/80 leading-relaxed">
+            Rebranding traditional ceramics with vibrant, modern UI/UX design, interactive workshops, and gamified discovery to excite younger generations.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-7 rounded-3xl bg-[#0E3524] border border-emerald-800/70 hover:border-amber-400/60 transition-all group">
+          <div class="w-12 h-12 rounded-2xl bg-blue-500/20 text-blue-400 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <i data-lucide="map-pin" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-serif text-white mb-2">Empowering Artisans</h3>
+          <p class="text-xs text-emerald-200/80 leading-relaxed">
+            Directly linking consumers, tourists, and students to local family ateliers in Nabeul, encouraging creative tourism and fair craftsman compensation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-Tool Digital Stack -->
+  <section id="ecosystem" class="py-20 px-5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Multi-Platform Ecosystem</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-serif text-white mt-1">
+          Crafted with Modern Tools
+        </h2>
+        <p class="text-emerald-200/75 text-sm mt-3">
+          Combining the power of industry-leading design, no-code development, and web presentation.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Figma -->
+        <div class="p-8 rounded-3xl bg-gradient-to-b from-[#0E3524] to-[#0A261A] border border-emerald-700/60 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-xs font-bold tracking-wide">
+                Design System
+              </span>
+              <i data-lucide="figma" class="w-6 h-6 text-red-400"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif text-white mb-3">Figma UI/UX</h3>
+            <p class="text-xs text-emerald-200/80 leading-relaxed mb-4">
+              Complete user journey, wireframes, atomic design system (Vert Nabeul, Terracotta, Cobalt Blue), interactive prototype with realistic micro-animations and screen flows.
+            </p>
+          </div>
+          <a
+            href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1"
+            target="_blank"
+            class="text-xs font-bold text-amber-400 hover:underline flex items-center space-x-1 pt-4 border-t border-emerald-900"
+          >
+            <span>Open in Figma</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Adalo -->
+        <div class="p-8 rounded-3xl bg-gradient-to-b from-[#0E3524] to-[#0A261A] border border-emerald-700/60 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-bold tracking-wide">
+                Functional MVP
+              </span>
+              <i data-lucide="smartphone" class="w-6 h-6 text-teal-400"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif text-white mb-3">Adalo App</h3>
+            <p class="text-xs text-emerald-200/80 leading-relaxed mb-4">
+              Developed the initial functional version of the mobile application, testing interactive database collections, workshop registration workflows, and user feedback mechanisms.
+            </p>
+          </div>
+          <span class="text-xs text-emerald-400 font-semibold pt-4 border-t border-emerald-900 flex items-center space-x-1">
+            <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+            <span>Interactive MVP Tested</span>
+          </span>
+        </div>
+
+        <!-- Manus -->
+        <div class="p-8 rounded-3xl bg-gradient-to-b from-[#0E3524] to-[#0A261A] border border-emerald-700/60 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-bold tracking-wide">
+                Web Portal
+              </span>
+              <i data-lucide="globe" class="w-6 h-6 text-purple-400"></i>
+            </div>
+            <h3 class="text-xl font-bold font-serif text-white mb-3">Manus Web</h3>
+            <p class="text-xs text-emerald-200/80 leading-relaxed mb-4">
+              Built a dedicated presentation website explaining the cultural narrative, project roadmap, and brand identity of Fokhar Bekri to partners and visitors worldwide.
+            </p>
+          </div>
+          <span class="text-xs text-amber-300 font-semibold pt-4 border-t border-emerald-900 flex items-center space-x-1">
+            <i data-lucide="award" class="w-3.5 h-3.5"></i>
+            <span>Storytelling Platform</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Figma Prototype Section -->
+  <section id="prototype" class="py-20 px-5 bg-[#071A12] border-t border-emerald-900/60">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Interactive Experience</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-serif text-white mt-1">
+          Explore the Figma Mobile Prototype
+        </h2>
+        <p class="text-emerald-200/75 text-sm mt-3">
+          Directly interact with the complete UI/UX prototype created for Fokhar Bekri.
+        </p>
+      </div>
+
+      <!-- Prototype Mockup Container -->
+      <div class="rounded-3xl overflow-hidden bg-[#0A261A] border border-emerald-700/70 shadow-2xl p-6 md:p-8 flex flex-col items-center">
+        <div class="w-full text-center mb-6">
+          <p class="text-xs text-stone-300 max-w-xl mx-auto">
+            Click the button below to launch the prototype directly in Figma with full interactivity, transitions, and touch emulation.
+          </p>
+          <a
+            href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-4 inline-flex items-center space-x-2 px-8 py-4 rounded-2xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-sm shadow-xl shadow-amber-500/20 active:scale-95 transition-all"
+          >
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+            <span>Launch Full Screen Prototype (Figma)</span>
+          </a>
+        </div>
+
+        <!-- Prototype Screen Showcase Carousel / Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 w-full mt-4">
+          <div class="p-3 rounded-2xl bg-[#0E3524] border border-emerald-800 text-center">
+            <span class="text-2xl mb-1 block">🏺</span>
+            <span class="text-xs font-bold block text-white">Onboarding Flow</span>
+            <span class="text-[10px] text-emerald-300/70">Heritage Storytelling</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-[#0E3524] border border-emerald-800 text-center">
+            <span class="text-2xl mb-1 block">👨‍🎨</span>
+            <span class="text-xs font-bold block text-white">Les Maâlems</span>
+            <span class="text-[10px] text-emerald-300/70">Master Potters Directory</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-[#0E3524] border border-emerald-800 text-center">
+            <span class="text-2xl mb-1 block">🎨</span>
+            <span class="text-xs font-bold block text-white">Techniques</span>
+            <span class="text-[10px] text-emerald-300/70">Tournage & Émaillage</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-[#0E3524] border border-emerald-800 text-center">
+            <span class="text-2xl mb-1 block">📅</span>
+            <span class="text-xs font-bold block text-white">Workshops</span>
+            <span class="text-[10px] text-emerald-300/70">Studio Reservations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nabeul Craftsmanship Steps -->
+  <section id="craftsmanship" class="py-20 px-5">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Ancestral Techniques</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-serif text-white mt-1">
+          The 4 Pillars of Nabeul Pottery
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="p-6 rounded-2xl bg-[#0E3524] border border-emerald-800">
+          <span class="text-xs font-bold text-amber-400 block mb-1">01 / Préparation</span>
+          <h4 class="text-base font-bold text-white mb-2">Argile & Pétrissage</h4>
+          <p class="text-xs text-emerald-200/75 leading-relaxed">
+            Extracting rich sedimentary clay from local quarries, purified through water basins and hand-kneaded to remove air bubbles.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#0E3524] border border-emerald-800">
+          <span class="text-xs font-bold text-amber-400 block mb-1">02 / Façonnage</span>
+          <h4 class="text-base font-bold text-white mb-2">Le Tournage Traditionnel</h4>
+          <p class="text-xs text-emerald-200/75 leading-relaxed">
+            Shaping vessels on foot-powered artisan potter's wheels, giving birth to iconic Goullas, amphoras, and tagines with precise touch.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#0E3524] border border-emerald-800">
+          <span class="text-xs font-bold text-amber-400 block mb-1">03 / Décoration</span>
+          <h4 class="text-base font-bold text-white mb-2">Émaillage & Peinture</h4>
+          <p class="text-xs text-emerald-200/75 leading-relaxed">
+            Application of natural mineral glazes: copper green (*Vert Nabeul*), iron yellow (*Ocre*), and cobalt oxide blue with horsehair brushes.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#0E3524] border border-emerald-800">
+          <span class="text-xs font-bold text-amber-400 block mb-1">04 / Cuisson</span>
+          <h4 class="text-base font-bold text-white mb-2">Four Traditionnel</h4>
+          <p class="text-xs text-emerald-200/75 leading-relaxed">
+            Firing in traditional wood and oil kilns reaching over 950°C to vitrify the enamel and produce timeless acoustic ceramic resonance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#030D08] border-t border-emerald-950 py-12 px-5 text-center text-xs text-emerald-400/60">
+    <div class="max-w-4xl mx-auto flex flex-col items-center space-y-4">
+      <img src="assets/logo.png" alt="Fokhar Bekri" class="h-14 w-auto object-contain opacity-90" />
+      <div class="font-serif text-white font-bold text-base">Fokhar Bekri • فخار بكري</div>
+      <p class="max-w-md text-emerald-300/70">
+        Dedicated to preserving the pottery heritage of Nabeul, Tunisia through digital innovation and human-centered design.
+      </p>
+      <div class="flex items-center space-x-6 pt-2 text-stone-300 font-semibold">
+        <a href="https://github.com/sasoumoumou-gif/fokhar-bekri-" class="hover:text-amber-400 transition-colors">GitHub Repository</a>
+        <a href="https://www.figma.com/proto/PHwiwpMU1Mo3oWokECiFkm/Untitled?node-id=214-3494&p=f&t=e415MblWQvNLYqWn-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=214%3A3494&show-proto-sidebar=1" class="hover:text-amber-400 transition-colors">Figma Prototype</a>
+      </div>
+      <div class="text-[11px] text-stone-500 pt-4">
+        © 2026 Fokhar Bekri • Designed & Built by Sasou Moumou
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
